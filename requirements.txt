@@ -1,4 +1,5 @@
 ﻿streamlit
+streamlit-ace
 openai
+python-dotenv
 bandit
-jsonlines
