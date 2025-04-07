@@ -1,8 +1,8 @@
-#SecurityEval + GPT Vulnerability Detection and Fixing Demo
+# SecurityEval + GPT Vulnerability Detection and Fixing Demo
 
 This project demonstrates how large language models (LLMs) like GPT-3.5 can be used to detect and repair code vulnerabilities using examples from the SecurityEval dataset. It provides an interactive interface where users can load real-world vulnerable code prompts, run GPT-based vulnerability detection, suggest secure fixes, and validate results using static analysis tools like Bandit.
 
-##Features
+## Features
 
 - Load prompts from the SecurityEval benchmark dataset
 
@@ -78,7 +78,7 @@ Each entry in data/securityeval.jsonl looks like this:
 
 Only the Prompt is analyzed and repaired in the app
 
-##Application Workflow
+## Application Workflow
 
 1. **Select Sample:** Choose a sample from the dropdown menu in the sidebar.
 
@@ -90,7 +90,7 @@ Only the Prompt is analyzed and repaired in the app
 
 5. **Run Bandit:** Static analysis to find basic vulnerabilities in the current version of the code.
 
-##Model Information
+## Model Information
 
 - **Model used:** gpt-3.5-turbo
 
@@ -98,7 +98,7 @@ Only the Prompt is analyzed and repaired in the app
 
 - **How it's used:** The app uses the Chat API to simulate security auditors and code fixers with carefully constructed prompts.
 
-##Requirements
+## Requirements
 
 ```
 streamlit
@@ -114,7 +114,7 @@ bandit
 pip install -r requirements.txt
 ```
 
-##Tips
+## Tips
 
 - You can add your own .jsonl files to data/ to test custom prompts.
 
@@ -122,7 +122,7 @@ pip install -r requirements.txt
 
 - Use the editor to write fresh insecure functions and test GPT's ability to detect/fix them.
 
-##Future Enhancements
+## Future Enhancements
 
 - Side-by-side diff viewer for before/after
 
@@ -132,10 +132,10 @@ pip install -r requirements.txt
 
 - Export secure code to file
 
-##License and Attribution
+## License and Attribution
 
 This project is for research and educational purposes. It is built upon the SecurityEval dataset by s2e-lab and uses OpenAI's GPT API for language model services.
 
-##Maintainer
+## Maintainer
 
 Developed and maintained by Mohamed Sakr. 
