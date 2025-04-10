@@ -37,8 +37,8 @@ This project demonstrates how large language models (LLMs) like GPT-3.5 can be u
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/securityeval-demo.git
-cd securityeval-demo
+git clone https://github.com/mgjim101/SecurityEval.git
+cd SecurityEval
 ```
 
 2. Install dependencies
@@ -86,7 +86,7 @@ Only the Prompt is analyzed and repaired in the app
 
 3. **Run Vulnerability Detection:** Uses GPT-3.5 to return a list of CWE vulnerabilities with explanations.
 
-4. ** Suggest Fix:** Uses GPT-3.5 to rewrite the code securely and explain the changes.
+4. **Suggest Fix:** Uses GPT-3.5 to rewrite the code securely and explain the changes.
 
 5. **Run Bandit:** Static analysis to find basic vulnerabilities in the current version of the code.
 
